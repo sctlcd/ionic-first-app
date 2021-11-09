@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +12,7 @@ export class HomePage {
   constructor() {}
 
   updateMyValue() {
-    if (this.myVariable === 'Hasta la vista, baby!') {
+    if (this.myVariable === 'Hasta la vista, baby!'){
       this.myVariable = 'I\'ll be back.';
     } else {
       this.myVariable = 'Hasta la vista, baby!';
